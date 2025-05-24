@@ -28,7 +28,7 @@ name_input = st.text_input("Navn", value=st.session_state["name"], placeholder="
 
 if "birth_date" not in st.session_state:
     st.session_state["birth_date"] = datetime.date(2000, 1, 1)
-birth_date_input = st.date_input("Fødselsdag", value=st.session_state["birth_date"])
+birth_date_input = st.date_input("Fødselsdag", value=st.session_state["birth_date"], min_value=datetime.date(1950, 1, 1))
 
 if "gender" not in st.session_state:
     st.session_state["gender"] = "Mand"
