@@ -17,4 +17,5 @@ st.markdown(
 )
 st.page_link("pages/1_Indtast_tid.py", label="Indtast tid", icon=":material/add:")
 st.page_link("pages/2_Registrerede_tider.py", label="Registrede tider", icon=":material/table:")
+st.page_link("pages/3_Personlige_tider.py", label="Personlige tider", icon=":material/person:")
 st.image("assets/kick-banner.jpg")

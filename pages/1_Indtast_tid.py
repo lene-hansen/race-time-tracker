@@ -2,11 +2,9 @@ import datetime
 import streamlit as st
 
 from utils.db_utils import init_db
-from utils.date_utils import convert_date_to_age
 from column_names import (
     ID,
     NAME,
-    AGE,
     BIRTH_DATE,
     GENDER,
     MEMBERS,
